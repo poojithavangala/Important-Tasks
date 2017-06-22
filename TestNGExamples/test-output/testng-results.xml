@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test1exec" duration-ms="63" started-at="2017-06-03T22:46:19Z" finished-at="2017-06-03T22:46:20Z">
+    <groups>
+      <group name="priority1">
+        <method signature="Test2.Openingbrowser()[pri:0, instance:testNGFramework.Test2@62ee68d8]" name="Openingbrowser" class="testNGFramework.Test2"/>
+      </group> <!-- priority1 -->
+    </groups>
+    <test name="Testcases" duration-ms="63" started-at="2017-06-03T22:46:19Z" finished-at="2017-06-03T22:46:20Z">
+      <class name="testNGFramework.Test2">
+        <test-method status="PASS" signature="Openingbrowser()[pri:0, instance:testNGFramework.Test2@62ee68d8]" name="Openingbrowser" duration-ms="32" started-at="2017-06-03T17:46:20Z" finished-at="2017-06-03T17:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openingbrowser -->
+      </class> <!-- testNGFramework.Test2 -->
+    </test> <!-- Testcases -->
+  </suite> <!-- Test1exec -->
+</testng-results>
