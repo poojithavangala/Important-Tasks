@@ -1,0 +1,18 @@
+QAClickAcademy
+
+13 Step by Step instructions to Configure Appium and Android in Windows
+
+Download Android Studio from following link https://developer.android.com/sdk/index.html
+Run .exe file of Android Studio
+Download Java from following link http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+Set System variables path for both Java and Android so that your System detect these locations
+Download Eclipse from following path
+Extract Eclipse folder and open the eclipse.exe file to launch editor
+Please use below link to download ADT plugin into eclipse https://dl-ssl.google.com/android/eclipse/ (New url updated Feb 2016)
+Complete these settings in Eclipse once you configured ADT Plugin to make it recognize : “Open Custom Perspective and make Android ,AVD Manager Enable and Set the path of SDK location in Preferences window “
+Create Android Virtual Device which will be later used for Testing
+Download Dotnet Framework 4.5 to support Appium Latest versions from below link https://www.microsoft.com/en-in/download/details.aspx?id=30653
+Install Appium Server from below link http://appium.io/downloads.html (Select .exe based on your OS)
+Download Appium and Selenium Jars from Maven Repositories
+Create a Basic Java project in Eclipse by configuring all these Jars into it
+https://eclipse.org/downloads/
