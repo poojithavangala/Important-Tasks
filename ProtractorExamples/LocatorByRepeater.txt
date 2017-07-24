@@ -1,0 +1,31 @@
+describe("Calc page Locator-by.repeater",function(){
+
+	it("Test Case1 validation",function(){
+		
+		browser.get("http://www.way2automation.com/angularjs-protractor/calc/");
+		
+		element(by.model("first")).sendKeys("2");
+		element(by.model("second")).sendKeys("4");
+		element(by.buttonText("Go!")).click();
+		
+		
+		element(by.model("first")).sendKeys("5");
+		element(by.model("second")).sendKeys("3");
+		element(by.buttonText("Go!")).click();
+	});
+	
+	it("History block testcase",fucntion(){
+		
+		console.log("Printing first row");
+		
+		element(by.repeater("result in memory").row(0)).getText().then(function(text){
+			console.log(text);
+		
+		});
+	
+	
+	});
+
+
+
+});
